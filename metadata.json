@@ -1,0 +1,8 @@
+{
+  "name": " Aura - Your AI Companion",
+  "description": "A deeply personal and empathetic virtual companion app styled like a modern social chat interface, powered by Gemini 3 Flash.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
