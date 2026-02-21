@@ -1,5 +1,5 @@
 
-export type Role = 'user' | 'model';
+export type Role = 'user' | 'model' | 'system';
 
 export interface Message {
   id: string;
@@ -7,6 +7,7 @@ export interface Message {
   text: string;
   timestamp: Date;
   status?: 'sending' | 'sent' | 'read';
+  callType?: 'voice' | 'video';
 }
 
 export interface CompanionProfile {

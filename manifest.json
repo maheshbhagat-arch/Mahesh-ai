@@ -1,0 +1,23 @@
+
+{
+  "short_name": "Aura",
+  "name": "Aura - Your AI Companion",
+  "icons": [
+    {
+      "src": "https://picsum.photos/id/1027/192/192",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://picsum.photos/id/1027/512/512",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffffff",
+  "description": "Virtual AI Girlfriend in Hinglish"
+}
